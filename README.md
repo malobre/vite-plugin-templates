@@ -4,7 +4,7 @@ Replace `template` tags with the content of the file specified in their `src` at
 
 ## Usage
 
-1. Install `npm install --save-dev https://github.com/malobre/vite-plugin-templates.git`
+1. Install `npm install --save-dev @malobre/vite-plugin-templates`
 1. Add plugin to your vite config
     ```js
     import { defineConfig } from 'vite'

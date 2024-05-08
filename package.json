@@ -1,13 +1,28 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "@malobre/vite-plugin-templates",
   "version": "0.0.0",
   "author": "Maël Obréjan <mael.obrejan@protonmail.com>",
   "license": "MIT",
+  "description": "Import partials into HTML files",
+  "keywords": [
+    "vite-plugin",
+    "template"
+  ],
+  "homepage": "https://github.com/malobre/vite-plugin-templates",
+  "bugs": {
+    "url": "https://github.com/malobre/vite-plugin-templates/issues"
+  },
+  "funding": "https://github.com/sponsors/malobre",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malobre/vite-plugin-templates.git"
+  },
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist/**/*"
+    "./dist/**/*"
   ],
   "scripts": {
     "tidy": "biome check --apply .",
