@@ -3,7 +3,7 @@ import { dirname, isAbsolute, join } from "node:path";
 
 import MagicString from "magic-string";
 import * as parse5 from "parse5";
-import { type Plugin, type ResolvedConfig } from "vite";
+import type { Plugin, ResolvedConfig } from "vite";
 
 const traverseNodes = async (
   node: parse5.DefaultTreeAdapterMap["node"],
